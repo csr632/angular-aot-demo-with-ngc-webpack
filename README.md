@@ -4,7 +4,7 @@ A minimum project to learn aot with Angular5 `ngc` and webpack. Also demonstrate
 similar to https://github.com/csr632/angular-aot-demo-with-ngc-rollup, but this project use webpack instead of rollup, so **lazy loading Angular module** is possible.
 
 # feature
-This project use `ngc` to generate compiled Angular code **and write it to disk**, and then bundle the js code from disk. This make you be able to **observe the code generate by angular compiler**, and even **edit it** to see the difference! I think it is really helpful to understand & play with the "low-level machine code" for Angular.
+This project use `ngc` to generate compiled Angular code **and write it to disk**, and then bundle the js code from disk. This make you be able to **observe the code generate by angular compiler**, and even **edit it** to see the difference! I think it is really helpful to understand & play with the "low-level machine code" of Angular.
 
 ## command explain:
 1. `npm run compile`: use `ngc`(angular compiler cli) to compile the "angular syntax" into js code(the "low-level machine code"). You can observe the output in `compile_output/`.
