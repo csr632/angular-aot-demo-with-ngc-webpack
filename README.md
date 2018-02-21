@@ -1,10 +1,11 @@
 # learn angular aot with ngc and webpack
-A minimum project to learn aot with Angular5 `ngc` and webpack. Also demonstrate how to import 3rd lib such as jQuery.
+A minified project to learn Angular5 aot with `ngc`(Angular compiler cli) and webpack. Also demonstrate how to import 3rd lib such as jQuery.
 
 similar to https://github.com/csr632/angular-aot-demo-with-ngc-rollup, but this project use webpack instead of rollup, so **lazy loading Angular module** is possible.
 
 # feature
 This project use `ngc` to generate compiled Angular code **and write it to disk**, and then bundle the js code from disk. This make you be able to **observe the code generate by angular compiler**, and even **edit it** to see the difference! I think it is really helpful to understand & play with the "low-level machine code" of Angular.
+> If you just want a minimum configuration to start building your own components to play with the ngc output, switch to [mini](https://github.com/csr632/angular-aot-demo-with-ngc-webpack/tree/mini) branch.
 
 ## command explain:
 1. `npm run compile`: use `ngc`(angular compiler cli) to compile the "angular syntax" into js code(the "low-level machine code"). You can observe the output in `compile_output/`.
