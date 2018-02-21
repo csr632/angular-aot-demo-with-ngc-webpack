@@ -4,19 +4,15 @@ import { RouterModule } from '@angular/router';
 
 
 import { AppComponent } from './app.component';
-import { AppModuleService } from './appModule.services';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule,
-    RouterModule.forRoot([
-      { path: 'lazy', loadChildren: './lazy/lazy.module#LazyModule' },
-    ])
+    BrowserModule
   ],
-  providers: [AppModuleService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
