@@ -2,8 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { AppCompService } from './appComp.services';
 import { AppModuleService } from './appModule.services';
 
-declare var $: any;
-
 @Component({
   selector: 'app-root',
   templateUrl:'app.component.html',
