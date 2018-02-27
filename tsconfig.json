@@ -25,6 +25,7 @@
   "angularCompilerOptions": {
     "entryModule": "src/app/app.module#AppModule",
     "skipMetadataEmit": true,
-    "skipTemplateCodegen": false
+    "skipTemplateCodegen": false,
+    "preserveWhitespaces": false
   }
 }
