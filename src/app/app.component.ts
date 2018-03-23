@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { AppCompService } from './appComp.services';
 import { AppModuleService } from './appModule.services';
+import $ from 'jquery';
+// this is used to test if window.myjq is the same object with the $ imported in lazy.component.ts
+// see lazy.component.ts
+(window as any).myjq = $;
 
 @Component({
   selector: 'app-root',
